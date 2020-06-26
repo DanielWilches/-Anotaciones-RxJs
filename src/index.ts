@@ -1,1 +1,1 @@
-console.log('esto es una prueba');
+console.log('esto es una prueba de cambio de usuario');
