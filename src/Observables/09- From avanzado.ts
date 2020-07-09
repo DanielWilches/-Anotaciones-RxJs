@@ -1,6 +1,5 @@
 //  Video-#29: Mas ejemplos con from y of
 import { of, from, Observer } from 'rxjs';
-import { async } from 'rxjs/internal/scheduler/async';
 /*
 of = Toma argumentos y genera una secucencia.
 from = array, promise , iterable, observable 

@@ -24,4 +24,11 @@ Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero 
 
 Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
 
+Sección #5: operadores comunes.
+
+En resumen, la sección tres echamos un vistazo a los operadores mas utilizados en RxJs, todas las notaciones a destacar dentro de esta sección podrán ser consultadas en el documento de apuntes del curso.
+para destacar la última clase tocamos por encima el patrón de diseño redux, en cual básicamente se trata de realizar un monitoreo constante al estado de nuestra aplicación. 
+
+
+
 
