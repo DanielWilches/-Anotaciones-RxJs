@@ -26,8 +26,11 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
 
 Sección #5: operadores comunes.
 
-En resumen, la sección tres echamos un vistazo a los operadores mas utilizados en RxJs, todas las notaciones a destacar dentro de esta sección podrán ser consultadas en el documento de apuntes del curso.
+En resumen, la sección tres echamos un vistazo a los operadores mas utilizados en RxJs, todas las notaciones a destacar están dentro de esta sección podrán ser consultadas en el documento de apuntes del curso.
 para destacar la última clase tocamos por encima el patrón de diseño redux, en cual básicamente se trata de realizar un monitoreo constante al estado de nuestra aplicación. 
+
+Sección #6: Operadores NO tan comunes.
+En esta sección destaca por el control a la data emitida por un observable, poder omitir cierta información que trae el observable de origen de cuerdo a ciertas validaciones o condicionales que se pueden agregar como una función dentro del operador
 
 
 
