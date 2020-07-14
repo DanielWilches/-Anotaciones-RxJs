@@ -1,6 +1,6 @@
-/**Video #52 & 53: Operador takeUntil.& Operador skip*/
+/**Video #53: Operador distinctUntilChanged*/
 import { Observable, Observer, from } from 'rxjs';
-import { distinctUntilKeyChanged } from 'rxjs/operators';
+import { distinctUntilChanged } from 'rxjs/operators';
 
 const observer: Observer<any> = {
   next: value => console.log('next: ', value),
@@ -11,6 +11,7 @@ const observer: Observer<any> = {
 interface Personaje {
   nombre: string;
 }
+
 const personajes: Personaje[] = [
   { nombre: 'megaman' },
   { nombre: 'robin' },
@@ -24,13 +25,13 @@ const personajes: Personaje[] = [
   { nombre: 'dr. willy' },
   { nombre: 'x' }
 ];
-
-// ejemplo  distinctUntilChanged
+// ejemplo del operador distinctUntilChanged
 from<Personaje[]>(personajes).pipe(
-  distinctUntilKeyChanged<Personaje>('nombre'))
-  .subscribe(observer)
+  distinctUntilChanged((ant: Personaje, act: Personaje) => {
+    return ant.nombre === act.nombre;
+  })).subscribe(observer)
 
 /**
- * para mas informacion sobre este operador/ Operadores consulte 'APUNTES DEL CURSO RxJs'
+ * para mas informacion sobre este operador/es consulte 'APUNTES DEL CURSO RxJs'
  * que esta alojado dentro de este repositorio.
  */

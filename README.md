@@ -32,6 +32,8 @@ para destacar la última clase tocamos por encima el patrón de diseño redux, e
 Sección #6: Operadores NO tan comunes.
 En esta sección destaca por el control a la data emitida por un observable, poder omitir cierta información que trae el observable de origen de cuerdo a ciertas validaciones o condicionales que se pueden agregar como una función dentro del operador
 
+Sección #7: Operadores que trabajan con el tiempo
+En esta sección estudiamos los operadores que trabajan con el tiempo, la mayoría de estos intervalos de tiempo se envía como parámetro del mismo operador, la ventaja de estos operadores es para controlar información que se genera demasiadas veces dentro del observable 
 
 
 
