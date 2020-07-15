@@ -1,15 +1,4 @@
-/**Video #62: Operador auditTime*/
-import { Observer } from 'rxjs';
-import {  } from 'rxjs/operators';
-
-const observer: Observer<any> = {
-  next: value => console.log('next: ', value),
-  error: error => console.error('error: ', error),
-  complete: () => console.info('completado'),
-};
-
-
-
+/**Video #71:Metodos post, put, delete */
 
 /**
  * para mas informacion sobre este operador/es consulte 'APUNTES DEL CURSO RxJs'

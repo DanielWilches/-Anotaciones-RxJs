@@ -35,5 +35,7 @@ En esta sección destaca por el control a la data emitida por un observable, pod
 Sección #7: Operadores que trabajan con el tiempo
 En esta sección estudiamos los operadores que trabajan con el tiempo, la mayoría de estos intervalos de tiempo se envía como parámetro del mismo operador, la ventaja de estos operadores es para controlar información que se genera demasiadas veces dentro del observable 
 
+Sección #8: peticiones Ajax usando rxjs
+esta seccion no hubo nada relevante o bueno la froma de hacer peticones dinamicas al servidor, lo mas importante la forma de manejar los errores de un observable con el operador catchError que alfinal del error puede devolver un nuevo observable con una descripcion del error.
 
 
