@@ -1,4 +1,6 @@
-/**Video #71:Metodos post, put, delete */
+
+/**Video #84: Ejercicio de comparación entre el mergeMap, switchMap y exhaustMap*/
+// helper
 
 /**
  * para mas informacion sobre este operador/es consulte 'APUNTES DEL CURSO RxJs'

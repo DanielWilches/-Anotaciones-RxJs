@@ -38,4 +38,8 @@ En esta secci처n estudiamos los operadores que trabajan con el tiempo, la mayor�
 Secci처n #8: peticiones Ajax usando rxjs
 esta seccion no hubo nada relevante o bueno la froma de hacer peticones dinamicas al servidor, lo mas importante la forma de manejar los errores de un observable con el operador catchError que alfinal del error puede devolver un nuevo observable con una descripcion del error.
 
+Secci처n #9: Operadores de transformaci처n.
+En esta secci처n trabajamos operadores de aplanamiento, estos operadores crean un nuevo observables al momento que reciben una emisi처n de alguno valor  por parte del observable de origen
+
+
 
